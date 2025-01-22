@@ -276,7 +276,6 @@ GameObject:
   - component: {fileID: 348520059}
   - component: {fileID: 348520058}
   - component: {fileID: 348520057}
-  - component: {fileID: 348520060}
   m_Layer: 0
   m_Name: Models
   m_TagString: Untagged
@@ -335,20 +334,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd4dfd4a8a1afea40bc2b3cabafa1a11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &348520060
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 348520055}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4bddb37b6650c64a8b675a2c847c83e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  initialSize: 10
-  audioSourcePrefab: {fileID: 539683731}
 --- !u!1001 &439348722
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1328,6 +1313,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3ef5ce0d778ce049bae48a280c1c350, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Pool: {fileID: 0}
   DotSound: {fileID: 8300000, guid: 0ab3aec86e6ff204fbff674f2d1c4275, type: 3}
   RopeSound: {fileID: 8300000, guid: bff6eb13729a4634780102be5c406059, type: 3}
 --- !u!1 &1793321671
